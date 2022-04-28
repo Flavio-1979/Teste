@@ -29,5 +29,10 @@ namespace WpfAppGitHub
       {
          MessageBox.Show("Bem vindo!", "TESTE GitHub", MessageBoxButton.OK, MessageBoxImage.Information);
       }
+
+      private void Button_Close_Click(object sender, RoutedEventArgs e)
+      {
+         Close();
+      }
    }
 }

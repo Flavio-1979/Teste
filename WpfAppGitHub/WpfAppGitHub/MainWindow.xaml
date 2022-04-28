@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF1D1A1A">
-        <Button x:Name="Button_Get_Message" Content="Obter mensagem" HorizontalAlignment="Left" Margin="286,208,0,0" VerticalAlignment="Top" Width="240" Height="40" Background="#FF0F17D1" BorderBrush="White" Foreground="White" FontSize="16" Click="Button_Get_Message_Click"/>
+        <Button x:Name="Button_Get_Message" Content="Obter mensagem" HorizontalAlignment="Center" Margin="0,208,0,0" VerticalAlignment="Top" Width="240" Height="40" Background="#FF0F17D1" BorderBrush="White" Foreground="White" FontSize="16" Click="Button_Get_Message_Click"/>
+        <Button x:Name="Button_Close" Content="Fechar" HorizontalAlignment="Center" Margin="0,278,0,0" VerticalAlignment="Top" Width="240" Height="40" Background="#FF0F17D1" BorderBrush="White" Foreground="White" FontSize="16" Click="Button_Close_Click"/>
 
     </Grid>
 </Window>
